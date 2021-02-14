@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+body {
+  height: 100%;
+  padding: 0px;
+}
+ul {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+
+header > .flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i,
+a:hover {
+  color: rgb(235, 182, 8);
+}
+a:focus {
+  outline: none;
+}
+.bg-dark {
+  background-color: #030303 !important;
+}
+
+.panier {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.card {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
